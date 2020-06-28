@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "url-format": "https://github.com/progrhyme/shelp/releases/download/v{{.Version}}/shelp_{{.Version}}_{{.OS}}_{{.Arch}}",
+    "replacements": {
+      "amd64": "x86_64"
+    }
+  },
+  "latest": { "version": "0.6.0" },
+  "versions": [
+    {
+      "version": "0.6.0",
+      "checksums": [
+        {
+          "file": "shelp_0.6.0_linux_x86_64",
+          "sha256": "018ed352010c09eb262d0195183cdf7f3dd12f49eadf76ef5c5893299002a7d7"
+        },
+        {
+          "file": "shelp_0.6.0_darwin_x86_64",
+          "sha256": "3fc3ca05cf7e54ab25fd7ee44b94e2614ca17f2dfd61b837134592030be3418d"
+        }
+      ]
+    },
+    {
+      "version": "0.5.3"
+    }
+  ]
+}
