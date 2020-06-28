@@ -1,0 +1,15 @@
+{
+  "meta": {
+    "url-format": "https://github.com/stedolan/jq/releases/download/jq-{{.Version}}/jq-{{.OS}}{{.Arch}}",
+    "replacements": {
+      "386": "32",
+      "amd64": "64",
+      "darwin": "osx-amd",
+      "windows": "win"
+    }
+  },
+  "latest": { "version": "1.6" },
+  "versions": [
+    { "version": "1.5" }
+  ]
+}
