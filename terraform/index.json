@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "url-format": "https://releases.hashicorp.com/terraform/{{.Version}}/terraform_{{.Version}}_{{.OS}}_{{.Arch}}.zip"
+  },
+  "latest": { "version": "0.12.28" },
+  "versions": [
+    { "version": "0.12.27" },
+    { "version": "0.12.26" },
+    { "version": "0.12.25" },
+    { "version": "0.12.24" }
+  ]
+}
