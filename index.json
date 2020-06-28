@@ -2,6 +2,7 @@
   "items": [
     {"name": "github.com/rust-lang/mdBook", "path": "github.com/rust-lang/mdBook/index.json"},
     {"name": "github.com/peco/peco", "path": "github.com/peco/peco/index.json"},
+    {"name": "github.com/progrhyme/binq", "path": "github.com/progrhyme/binq/index.json"},
     {"name": "github.com/progrhyme/shelp", "path": "github.com/progrhyme/shelp/index.json"},
     {"name": "jq", "path": "jq/index.json"},
     {"name": "terraform", "path": "terraform/index.json"}
