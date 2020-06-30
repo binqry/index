@@ -1,10 +1,15 @@
 {
   "meta": {
-    "url-format": "https://github.com/rust-lang/mdBook/releases/download/v{{.Version}}/mdbook-v{{.Version}}-{{.Arch}}-{{.OS}}.tar.gz",
+    "url-format": "https://github.com/rust-lang/mdBook/releases/download/v{{.Version}}/mdbook-v{{.Version}}-{{.Arch}}-{{.OS}}{{.Ext}}",
     "replacements": {
       "amd64": "x86_64",
       "darwin": "apple-darwin",
-      "linux": "unknown-linux-gnu"
+      "linux": "unknown-linux-gnu",
+      "windows": "pc-windows-msvc"
+    },
+    "extension": {
+      "default": ".tar.gz",
+      "windows": ".zip"
     }
   },
   "latest": { "version": "0.4.0" },
