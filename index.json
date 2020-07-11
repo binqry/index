@@ -1,10 +1,32 @@
 {
   "items": [
-    {"name": "binq", "path": "github.com/progrhyme/binq/index.json"},
-    {"name": "jq", "path": "github.com/stedolan/jq/index.json"},
-    {"name": "mdbook", "path": "github.com/rust-lang/mdBook/index.json"},
-    {"name": "peco", "path": "github.com/peco/peco/index.json"},
-    {"name": "shelp", "path": "github.com/progrhyme/shelp/index.json"},
-    {"name": "terraform", "path": "terraform/index.json"}
+    {
+      "name": "binq",
+      "path": "github.com/progrhyme/binq/index.json"
+    },
+    {
+      "name": "binq-gh",
+      "path": "github.com/progrhyme/binq-gh/index.json"
+    },
+    {
+      "name": "jq",
+      "path": "github.com/stedolan/jq/index.json"
+    },
+    {
+      "name": "mdbook",
+      "path": "github.com/rust-lang/mdBook/index.json"
+    },
+    {
+      "name": "peco",
+      "path": "github.com/peco/peco/index.json"
+    },
+    {
+      "name": "shelp",
+      "path": "github.com/progrhyme/shelp/index.json"
+    },
+    {
+      "name": "terraform",
+      "path": "terraform/index.json"
+    }
   ]
 }
