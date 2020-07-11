@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "url-format": "https://github.com/genuinetools/reg/releases/download/v{{.Version}}/reg-{{.OS}}-{{.Arch}}"
+  },
+  "latest": {
+    "version": "0.16.1"
+  },
+  "versions": [
+    {
+      "version": "0.16.1",
+      "checksums": [
+        {
+          "file": "reg-linux-amd64",
+          "sha256": "ade837fc5224acd8c34732bf54a94f579b47851cc6a7fd5899a98386b782e228"
+        },
+        {
+          "file": "reg-darwin-amd64",
+          "sha256": "2768ac56ad640e8ee5b74752fc9bbeaf37f37a34c7e1ddcb6d0e384a3096b1c2"
+        }
+      ]
+    }
+  ]
+}

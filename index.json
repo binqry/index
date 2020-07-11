@@ -21,6 +21,10 @@
       "path": "github.com/peco/peco/index.json"
     },
     {
+      "name": "reg",
+      "path": "github.com/genuinetools/reg/index.json"
+    },
+    {
       "name": "shelp",
       "path": "github.com/progrhyme/shelp/index.json"
     },
