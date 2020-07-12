@@ -3,6 +3,9 @@
     "url-format": "https://github.com/progrhyme/shelp/releases/download/v{{.Version}}/shelp_{{.Version}}_{{.OS}}_{{.Arch}}",
     "replacements": {
       "amd64": "x86_64"
+    },
+    "rename-files": {
+      "shelp_{{.Version}}_{{.OS}}_{{.Arch}}": "shelp"
     }
   },
   "latest": { "version": "0.6.0" },
