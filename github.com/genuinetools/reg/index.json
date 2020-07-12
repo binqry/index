@@ -1,6 +1,9 @@
 {
   "meta": {
-    "url-format": "https://github.com/genuinetools/reg/releases/download/v{{.Version}}/reg-{{.OS}}-{{.Arch}}"
+    "url-format": "https://github.com/genuinetools/reg/releases/download/v{{.Version}}/reg-{{.OS}}-{{.Arch}}",
+    "rename-files": {
+      "reg-{{.OS}}-{{.Arch}}": "reg"
+    }
   },
   "latest": {
     "version": "0.16.1"

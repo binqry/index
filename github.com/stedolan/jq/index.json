@@ -6,6 +6,10 @@
       "amd64": "64",
       "darwin": "osx-amd",
       "windows": "win"
+    },
+    "rename-files": {
+      "jq-{{.OS}}{{.Arch}}": "jq",
+      "jq-{{.OS}}{{.Arch}}{{.BinExt}}": "jq.exe"
     }
   },
   "latest": { "version": "1.6" },
