@@ -3,9 +3,22 @@
     "url-format": "https://github.com/progrhyme/binq/releases/download/v{{.Version}}/binq_{{.Version}}_{{.OS}}_{{.Arch}}.zip"
   },
   "latest": {
-    "version": "0.6.1"
+    "version": "0.6.2"
   },
   "versions": [
+    {
+      "version": "0.6.2",
+      "checksums": [
+        {
+          "file": "binq_0.6.2_linux_amd64.zip",
+          "sha256": "5a55f68591ad3aa08b2c837edf258ca91070c12489f40cb2260a3e902679a56d"
+        },
+        {
+          "file": "binq_0.6.2_darwin_amd64.zip",
+          "sha256": "d9579494fcbfd7c64d4e4d40df42b621ae419f3565946b70afc0eb2405611db4"
+        }
+      ]
+    },
     {
       "version": "0.6.1",
       "checksums": [

@@ -3,9 +3,22 @@
     "url-format": "https://github.com/progrhyme/binq-gh/releases/download/v{{.Version}}/binq-gh_{{.Version}}_{{.OS}}_{{.Arch}}.zip"
   },
   "latest": {
-    "version": "0.1.1"
+    "version": "0.2.0"
   },
   "versions": [
+    {
+      "version": "0.2.0",
+      "checksums": [
+        {
+          "file": "binq-gh_0.2.0_linux_amd64.zip",
+          "sha256": "26d2fa1e2384f8eb0412a66e4235d061670dec8c50df11cddea00a8271b92805"
+        },
+        {
+          "file": "binq-gh_0.2.0_darwin_amd64.zip",
+          "sha256": "7832f95f597d4caa3eccb103dfbd76c9c65d7c4e01519da8868323e41ba6a200"
+        }
+      ]
+    },
     {
       "version": "0.1.1",
       "checksums": [
