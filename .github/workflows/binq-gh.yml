@@ -13,7 +13,7 @@ on:
       cron: '25 20 * * *'
 
 env:
-  BINQ_VERSION: 0.6.3
+  BINQ_VERSION: 0.7.2
   GIT_USER: progrhyme
   GIT_EMAIL: progrhyme@gmail.com
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
