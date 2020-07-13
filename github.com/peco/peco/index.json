@@ -1,6 +1,10 @@
 {
   "meta": {
-    "url-format": "https://github.com/peco/peco/releases/download/v{{.Version}}/peco_{{.OS}}_{{.Arch}}.zip"
+    "url-format": "https://github.com/peco/peco/releases/download/v{{.Version}}/peco_{{.OS}}_{{.Arch}}{{.Ext}}",
+    "extension": {
+      "default": ".zip",
+      "linux": ".tar.gz"
+    }
   },
   "latest": { "version": "0.5.7" },
   "versions": []
