@@ -1,6 +1,6 @@
 {
   "meta": {
-    "url-format": "https://github.com/progrhyme/binq/releases/download/v{{.Version}}/binq_{{.Version}}_{{.OS}}_{{.Arch}}.zip"
+    "url-format": "https://github.com/binqry/binq/releases/download/v{{.Version}}/binq_{{.Version}}_{{.OS}}_{{.Arch}}.zip"
   },
   "latest": {
     "version": "0.6.3"

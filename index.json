@@ -2,11 +2,11 @@
   "items": [
     {
       "name": "binq",
-      "path": "github.com/progrhyme/binq/index.json"
+      "path": "github.com/binqry/binq/index.json"
     },
     {
       "name": "binq-gh",
-      "path": "github.com/progrhyme/binq-gh/index.json"
+      "path": "github.com/binqry/binq-gh/index.json"
     },
     {
       "name": "jq",

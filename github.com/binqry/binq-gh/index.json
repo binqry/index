@@ -1,6 +1,6 @@
 {
   "meta": {
-    "url-format": "https://github.com/progrhyme/binq-gh/releases/download/v{{.Version}}/binq-gh_{{.Version}}_{{.OS}}_{{.Arch}}.zip"
+    "url-format": "https://github.com/binqry/binq-gh/releases/download/v{{.Version}}/binq-gh_{{.Version}}_{{.OS}}_{{.Arch}}.zip"
   },
   "latest": {
     "version": "0.2.0"
