@@ -14,7 +14,7 @@ BIN_DIR=${WORK_DIR}/bin
 BINQ_GH=${BIN_DIR}/binq-gh
 INDEX_REPO=${WORK_DIR}/index
 export BINQ_BIN=${BIN_DIR}/binq
-export BINQ_SERVER=https://progrhy.me/binq-index
+export BINQ_SERVER=https://binqry.github.io/index/
 
 git_configure() {
   git config --global user.name $GIT_USER
@@ -22,13 +22,13 @@ git_configure() {
 }
 
 git_clone_index_repo() {
-  local repo_url="https://${GIT_USER}:${GITHUB_TOKEN}@github.com/progrhyme/binq-index.git"
+  local repo_url="https://${GIT_USER}:${GITHUB_TOKEN}@github.com/binqry/index.git"
   git clone $repo_url --branch=gh-pages --depth=1 $INDEX_REPO
 }
 
 install_binq() {
   local tmpfile=$(mktemp)
-  curl -Lo $tmpfile "https://github.com/progrhyme/binq/releases/download/v${BINQ_VERSION}/binq_${BINQ_VERSION}_${GOOS}_amd64.zip"
+  curl -Lo $tmpfile "https://github.com/binqry/binq/releases/download/v${BINQ_VERSION}/binq_${BINQ_VERSION}_${GOOS}_amd64.zip"
   unzip -d $BIN_DIR $tmpfile
   rm $tmpfile
 }
