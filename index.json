@@ -13,6 +13,10 @@
       "path": "github.com/stedolan/jq/index.json"
     },
     {
+      "name": "kustomize",
+      "path": "github.com/kubernetes-sigs/kustomize/index.json"
+    },
+    {
       "name": "mdbook",
       "path": "github.com/rust-lang/mdBook/index.json"
     },
