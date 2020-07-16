@@ -1,7 +1,6 @@
 #!/usr/bin/env bash
 #
 # Required Environment Variables:
-# - BINQ_VERSION: version of binq. ex) 0.6.0
 # - GOOS: linux or darwin
 # - GIT_USER: to commit git repo
 # - GIT_EMAIL: to commit git repo
@@ -27,10 +26,9 @@ git_clone_index_repo() {
 }
 
 install_binq() {
-  local tmpfile=$(mktemp)
-  curl -Lo $tmpfile "https://github.com/binqry/binq/releases/download/v${BINQ_VERSION}/binq_${BINQ_VERSION}_${GOOS}_amd64.zip"
-  unzip -d $BIN_DIR $tmpfile
-  rm $tmpfile
+  pushd $BIN_DIR
+  curl -s "https://raw.githubusercontent.com/binqry/binq/master/get-binq.sh" | bash
+  popd
 }
 
 update_index_repo() {
@@ -50,6 +48,8 @@ update_index_repo() {
 # Main Entry
 
 echo "[START]"
+mkdir -p $BIN_DIR
+
 echo "[Exec] git configure"
 git_configure
 if [[ -d "${INDEX_REPO}" ]]; then
@@ -60,7 +60,9 @@ else
 fi
 
 echo "[Exec] Install binq"
-install_binq
+(
+  install_binq
+)
 $BINQ_BIN binq-gh -L=info -d $BIN_DIR
 
 for json in $(find ${INDEX_REPO}/github.com -name '*.json'); do
