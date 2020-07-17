@@ -3,9 +3,26 @@
     "url-format": "https://github.com/binqry/binq/releases/download/v{{.Version}}/binq_{{.Version}}_{{.OS}}_{{.Arch}}.zip"
   },
   "latest": {
-    "version": "0.8.0"
+    "version": "0.8.1"
   },
   "versions": [
+    {
+      "version": "0.8.1",
+      "checksums": [
+        {
+          "file": "binq_0.8.1_windows_amd64.zip",
+          "sha256": "053fe2a179a9bf8496908d1443ebbe8404d09dae6458dcf680e86fad2fd58cca"
+        },
+        {
+          "file": "binq_0.8.1_linux_amd64.zip",
+          "sha256": "26a1bab5e21e95037c7e044c9193cee92d1af3fd4dcda8e3207570f48748b490"
+        },
+        {
+          "file": "binq_0.8.1_darwin_amd64.zip",
+          "sha256": "faf15abdecacbd55006ddb9af1bb3344fcb0c420f648ca8a1c73c3b3ac547f9d"
+        }
+      ]
+    },
     {
       "version": "0.8.0",
       "checksums": [
