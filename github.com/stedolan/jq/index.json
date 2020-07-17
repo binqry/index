@@ -9,7 +9,7 @@
     },
     "rename-files": {
       "jq-{{.OS}}{{.Arch}}": "jq",
-      "jq-{{.OS}}{{.Arch}}{{.BinExt}}": "jq.exe"
+      "jq-{{.OS}}{{.Arch}}.exe": "jq.exe"
     }
   },
   "latest": { "version": "1.6" },
