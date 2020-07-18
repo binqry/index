@@ -6,6 +6,42 @@
       "linux": ".tar.gz"
     }
   },
-  "latest": { "version": "0.5.7" },
-  "versions": []
+  "latest": {
+    "version": "0.5.8"
+  },
+  "versions": [
+    {
+      "version": "0.5.8",
+      "checksums": [
+        {
+          "file": "peco_darwin_amd64.zip",
+          "sha256": "4421ce151e03233e3df4ed02eb1abd9a5acc78a66f69fbe3c72d44f2e65d70c8"
+        },
+        {
+          "file": "peco_linux_386.tar.gz",
+          "sha256": "cf2b5b3334d4497ee20bf73b896a6019eaae0edc79ee9601502eb06b497b011f"
+        },
+        {
+          "file": "peco_linux_amd64.tar.gz",
+          "sha256": "2554f6c71f33f1f9ffe99c5f1c3041b47d467aa18462a3cea18a88e2324e86c4"
+        },
+        {
+          "file": "peco_linux_arm.tar.gz",
+          "sha256": "a0221df7dda7a21476e85e190745d06c073ea260d0cd5d8640a0d2cc52c4f834"
+        },
+        {
+          "file": "peco_linux_arm64.tar.gz",
+          "sha256": "602b93d7d6e7a5f88b2f7b97ba1db87f909c1d5c4ffbabd9933e67ce951f9fe8"
+        },
+        {
+          "file": "peco_windows_386.zip",
+          "sha256": "4a1c7b8ba3d5a4093fbe257949eceaa651d360a9db2e5d3ef3b1a4ab22bb4324"
+        },
+        {
+          "file": "peco_windows_amd64.zip",
+          "sha256": "2c574fda20ceb229df82276fb3445977b30a8a902fc21c5549d0bd43f0b255d5"
+        }
+      ]
+    }
+  ]
 }

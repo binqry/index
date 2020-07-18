@@ -3,9 +3,22 @@
     "url-format": "https://github.com/binqry/binq-gh/releases/download/v{{.Version}}/binq-gh_{{.Version}}_{{.OS}}_{{.Arch}}.zip"
   },
   "latest": {
-    "version": "0.3.0"
+    "version": "0.3.1"
   },
   "versions": [
+    {
+      "version": "0.3.1",
+      "checksums": [
+        {
+          "file": "binq-gh_0.3.1_linux_amd64.zip",
+          "sha256": "314a2a56b712f74af26b3a01a60af96752a881c5d741441416226288d233c055"
+        },
+        {
+          "file": "binq-gh_0.3.1_darwin_amd64.zip",
+          "sha256": "fb304d4bd3aa4950d2afa55bf4c457fc2063ec8553fb757e920233419e4155b9"
+        }
+      ]
+    },
     {
       "version": "0.3.0",
       "checksums": [
