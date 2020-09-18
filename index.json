@@ -9,6 +9,10 @@
       "path": "github.com/binqry/binq-gh/index.json"
     },
     {
+      "name": "helm",
+      "path": "helm/index.json"
+    },
+    {
       "name": "jq",
       "path": "github.com/stedolan/jq/index.json"
     },

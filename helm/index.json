@@ -1,0 +1,40 @@
+{
+  "meta": {
+    "url-format": "https://get.helm.sh/helm-v{{.Version}}-{{.OS}}-{{.Arch}}{{.Ext}}",
+    "extension": {
+      "default": ".tar.gz",
+      "windows": ".zip"
+    }
+  },
+  "latest": {
+    "version": "3.3.2"
+  },
+  "versions": [
+    {
+      "version": "3.3.2",
+      "checksums": [
+        {
+          "file": "helm-v3.3.2-darwin-amd64.tar.gz",
+          "sha256": "eb86998f8db4e59fe2336ce78b3dc3b3ba5346d81b622dc0a1744bf97c2df5f3"
+        },
+        {
+          "file": "helm-v3.3.2-linux-amd64.tar.gz",
+          "sha256": "cf82fe0ed1675030b203a9a3575b1a1bc4b0f5ce4584ce2cd7f75cd093cad259"
+        }
+      ]
+    },
+    {
+      "version": "3.1.1",
+      "checksums": [
+        {
+          "file": "helm-v3.1.1-darwin-amd64.tar.gz",
+          "sha256": "2ce00e6c44ba18fbcbec21c493476e919128710d480789bb35bd228ae695cd66"
+        },
+        {
+          "file": "helm-v3.1.1-linux-amd64.tar.gz",
+          "sha256": "cdd7ad304e2615c583dde0ffb0cb38fc1336cd7ce8ff3b5f237434dcadb28c98"
+        }
+      ]
+    }
+  ]
+}
