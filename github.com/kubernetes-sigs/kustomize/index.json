@@ -3,9 +3,26 @@
     "url-format": "https://github.com/kubernetes-sigs/kustomize/releases/download/kustomize%2Fv{{.Version}}/kustomize_v{{.Version}}_{{.OS}}_{{.Arch}}.tar.gz"
   },
   "latest": {
-    "version": "3.8.1"
+    "version": "3.8.4"
   },
   "versions": [
+    {
+      "version": "3.8.4",
+      "checksums": [
+        {
+          "file": "kustomize_v3.8.4_linux_amd64.tar.gz",
+          "sha256": "194caffbdb59d8fc887488ba8fa3dce7b68ccf816737b57bde7338ca980f4912"
+        },
+        {
+          "file": "kustomize_v3.8.4_windows_amd64.tar.gz",
+          "sha256": "54d42cb8690ecb63acd3cb302d77e24db9ea368c4f11c0b197cfa3a0c9ce516c"
+        },
+        {
+          "file": "kustomize_v3.8.4_darwin_amd64.tar.gz",
+          "sha256": "c56f1d6ea61bf1baaf6b33fbe838fd8cda61eaec2eb96529a57c0286dd59a8cf"
+        }
+      ]
+    },
     {
       "version": "3.8.1",
       "checksums": [
