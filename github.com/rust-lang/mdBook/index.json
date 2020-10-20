@@ -13,9 +13,26 @@
     }
   },
   "latest": {
-    "version": "0.4.3"
+    "version": "0.4.4"
   },
   "versions": [
+    {
+      "version": "0.4.4",
+      "checksums": [
+        {
+          "file": "mdbook-v0.4.4-x86_64-apple-darwin.tar.gz",
+          "sha256": "d4631542fbda1efbd5d78d3d1f558949ea9dcf37efee7027d9ee61767e63f49a"
+        },
+        {
+          "file": "mdbook-v0.4.4-x86_64-pc-windows-msvc.zip",
+          "sha256": "7c5632c83889c4fb65dc1bf061253da7e680a8ec63076a14cc117721ecaf79fe"
+        },
+        {
+          "file": "mdbook-v0.4.4-x86_64-unknown-linux-gnu.tar.gz",
+          "sha256": "a518d005ed6a264e49998917d33e08769ac1d9c812405e7d214673aea625411d"
+        }
+      ]
+    },
     {
       "version": "0.4.3",
       "checksums": [
