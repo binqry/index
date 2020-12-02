@@ -1,6 +1,10 @@
 {
   "items": [
     {
+      "name": "argocd",
+      "path": "github.com/argoproj/argo-cd/index.json"
+    },
+    {
       "name": "binq",
       "path": "github.com/binqry/binq/index.json"
     },
